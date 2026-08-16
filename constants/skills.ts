@@ -46,7 +46,8 @@ export interface SkillCategory {
 export const skillCategories: Record<string, SkillCategory> = {
   languages: {
     title: "Programming Languages",
-    description: "Core languages used for problem solving and software development",
+    description:
+      "Core languages used for problem solving and software development",
     items: [
       { name: "C++", icon: TbBrandCpp, level: "Advanced" },
       { name: "Python", icon: FaPython, level: "Proficient" },
@@ -100,13 +101,22 @@ export const skillCategories: Record<string, SkillCategory> = {
   },
   core: {
     title: "Core CS Fundamentals",
-    description: "Foundation in computational theory, architecture, and systems",
+    description:
+      "Foundation in computational theory, architecture, and systems",
     items: [
-      { name: "Data Structures & Algorithms", icon: SiLeetcode, level: "512+ Solved" },
+      {
+        name: "Data Structures & Algorithms",
+        icon: SiLeetcode,
+        level: "512+ Solved",
+      },
       { name: "OOPs", icon: FaCubes, level: "Advanced" },
       { name: "DBMS", icon: FaDatabase, level: "Advanced" },
       { name: "Operating Systems", icon: FaDesktop, level: "Proficient" },
-      { name: "Computer Networks", icon: FaProjectDiagram, level: "Proficient" },
+      {
+        name: "Computer Networks",
+        icon: FaProjectDiagram,
+        level: "Proficient",
+      },
     ],
   },
 };
